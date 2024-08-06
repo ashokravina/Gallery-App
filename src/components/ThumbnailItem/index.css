@@ -1,0 +1,25 @@
+/* Write your code here. */
+.img {
+  height: 90px;
+  width: 90px;
+  border-radius: 3px;
+  
+}
+
+.button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  margin-right: 5px;
+  border: 0px solid #ffffff;
+}
+@media (max-width: 766px) {
+  .img {
+    height: 60px;
+    width: 65px;
+  }
+  .button {
+    flex-wrap: nowrap;
+    margin-right: 1px;
+  }
+}
